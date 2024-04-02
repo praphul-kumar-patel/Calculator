@@ -1,0 +1,27 @@
+.container {
+  border: 1.5px solid rgb(68, 64, 64);
+  border-radius: 5px;
+  width: 25%;
+  margin: 8% 40%;
+}
+.container input{
+  height: 50px;
+  width: 88%;
+  margin: 10px 12px; 
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.button-calculator {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+.button-calculator .button{
+  height: 60px;
+  width: 95px;
+  font-size: 18px;
+}
